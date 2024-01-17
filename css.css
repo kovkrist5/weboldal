@@ -1,0 +1,138 @@
+header{
+    background-color: lightpink;
+    height: 60px;
+    width: 100%;
+    
+    transform:translateY(-40px);
+    transition:transform 350ms ease-in-out;
+    
+}
+.header-active{
+    transform: translateY(0) ;   
+}
+body{
+    background-color: rgb(255, 245, 249);
+    font-family: "Agbalumo";
+    margin: 0;
+    max-width: 100%;
+    
+}
+
+
+nav{
+    transform: translateX(-100rem);
+    transition:transform 350ms ease-in-out;
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    background: white;  
+}
+.nav-active{
+    transform: translateX(0) ;
+    -webkit-transform: translateX(0) ;
+    -moz-transform: translateX(0) ;
+    -ms-transform: translateX(0) ;
+    -o-transform: translateX(0) ;
+}
+
+#aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: white; 
+    width: 200px;
+    
+    transform: translateY(-140vh);
+    transition: transform 350ms ease-in-out;
+  }
+  
+  #aside.active {
+    transform: translateY(0);
+  }
+  
+
+
+.icon{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal; 
+    margin:0;
+    
+}
+#burger{
+    color: rgb(255, 245, 249);
+
+    
+}
+.burgercs{
+    padding: 0 0 0 250px;
+}
+#back{
+    color: lightpink;
+    padding: 0 0 0 20px;
+    
+}
+#cart{
+    color: rgb(255, 245, 249);
+    float: right;
+    
+    padding: 0 250px 0 0;
+    
+    
+}
+#burger:hover, #cart:hover, #back:hover{
+    font-size: 40px;
+    transition:transform 350ms ease-in-out;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    transform:translateY(-40px);
+    transition:transform 350ms ease-in-out;
+
+    text-align: center;
+    color: lightpink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+h1{ 
+    font-size: 60px;
+    max-height: 75px;
+    width: 100%;
+    margin: 0;
+  border-bottom: solid lightpink 1px ; 
+}
+#lace{
+    background-image: url(lace.png);
+    height: 19px; 
+    width: auto;
+    background-repeat: repeat-x;
+   
+}
+h2{
+    margin: 0;
+    font-size: 25px;
+}
+
+
+#sectionC{
+    
+    max-width: 820px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#section>img{
+    
+    max-width: 250px;
+    border-radius:50% ;
+    
+}
+#section>h2, #section>p{
+    max-width: 300px;
+    text-align: center;
+}
